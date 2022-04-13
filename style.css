@@ -1,0 +1,353 @@
+body {
+  margin: 0px;
+  /* box-sizing: border-box; */
+}
+
+/* .container {
+  width: 400px;
+} */
+
+.solar-system {
+  padding: 30px;
+  background: url(./images/universe2.jpg) no-repeat center center;
+
+  background-size: cover;
+
+  /* position: relative; */
+}
+
+.sun {
+  background: radial-gradient(yellow, orange, darkorange, yellow);
+
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.first {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+
+  margin: auto;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.second {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #ccc;
+
+  margin: auto;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.third {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #ccc;
+
+  margin: auto;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.forth {
+  width: 500px;
+  height: 500px;
+  border: 1px solid #ccc;
+
+  margin: auto;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.fifth {
+  width: 600px;
+  height: 600px;
+  border: 1px solid #ccc;
+
+  margin: auto;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.sixth {
+  width: 700px;
+  height: 700px;
+  border: 1px solid #ccc;
+
+  margin: auto;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.seventh {
+  width: 800px;
+  height: 800px;
+  border: 1px solid #ccc;
+
+  margin: auto;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.eighth {
+  width: 900px;
+  height: 900px;
+  border: 1px solid #ccc;
+
+  margin: auto;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.ninth {
+  width: 1000px;
+  height: 1000px;
+  border: 1px solid #ccc;
+
+  margin: auto;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+/* planets */
+
+.mercury {
+  background: url(./images/Mercury.png) no-repeat center center;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+  position: absolute;
+
+  animation: circle1 3s linear infinite;
+}
+
+.venus {
+  background: url(./images/Venus.png) no-repeat center center;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+  position: absolute;
+
+  animation: circle2 5s linear infinite;
+}
+
+.earth {
+  background: url(./images/earth3.png) no-repeat center center;
+  background-size: cover;
+  /* background: radial-gradient(green, skyblue); */
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+
+  position: absolute;
+
+  animation: circle3 7s linear infinite;
+}
+
+.mars {
+  background: url(./images/mars.jpeg) no-repeat center center;
+  background-size: cover;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+
+  position: absolute;
+
+  animation: circle4 9s linear infinite;
+}
+
+.jupiter {
+  background: url(./images/Jupiter.png) no-repeat center center;
+  background-size: cover;
+
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+  position: absolute;
+
+  animation: circle5 11s linear infinite;
+}
+
+.saturn {
+  background: url(./images/saturn.png) no-repeat center center;
+  background-size: cover;
+
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+  position: absolute;
+
+  animation: circle6 13s linear infinite;
+}
+
+.uranus {
+  background: url(./images/uranus.jpeg) no-repeat center center;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+  position: absolute;
+
+  animation: circle7 15s linear infinite;
+}
+
+.neptune {
+  background: url(./images/neptune.png) no-repeat center center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+  position: absolute;
+
+  animation: circle8 17s linear infinite;
+}
+
+.pluto {
+  background: url(./images/pluto.png) no-repeat center center;
+
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+
+  position: absolute;
+
+  animation: circle9 19s linear infinite;
+}
+
+@keyframes circle1 {
+  0% {
+    transform: rotate(0deg) translate(-100px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-100px) rotate(-360deg);
+  }
+}
+
+@keyframes circle2 {
+  0% {
+    transform: rotate(0deg) translate(-150px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-150px) rotate(-360deg);
+  }
+}
+
+@keyframes circle3 {
+  0% {
+    transform: rotate(0deg) translate(-200px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-200px) rotate(-360deg);
+  }
+}
+
+@keyframes circle4 {
+  0% {
+    transform: rotate(0deg) translate(-250px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-250px) rotate(-360deg);
+  }
+}
+
+@keyframes circle5 {
+  0% {
+    transform: rotate(0deg) translate(-300px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-300px) rotate(-360deg);
+  }
+}
+
+@keyframes circle6 {
+  0% {
+    transform: rotate(0deg) translate(-350px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-350px) rotate(-360deg);
+  }
+}
+
+@keyframes circle7 {
+  0% {
+    transform: rotate(0deg) translate(-400px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-400px) rotate(-360deg);
+  }
+}
+
+@keyframes circle8 {
+  0% {
+    transform: rotate(0deg) translate(-450px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-450px) rotate(-360deg);
+  }
+}
+
+@keyframes circle9 {
+  0% {
+    transform: rotate(0deg) translate(-500px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-500px) rotate(-360deg);
+  }
+}
